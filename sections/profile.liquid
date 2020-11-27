@@ -1,0 +1,35 @@
+{% schema %}
+  {
+    "name": "Profile",
+
+    "settings": [
+      {
+        "id": "header",
+        "type": "text",
+        "label": "Profile Settings"
+      },
+      {
+        "id": "user_img",
+        "type": "image_picker",
+        "label": "User Photo"
+      },
+      {
+        "id": "user_name",
+        "type": "text",
+        "label": "User Name"
+      },
+      {
+        "id": "user_bio",
+        "type": "richtext",
+        "label": "User Bio"
+      }
+    ],
+
+    "presets": [
+      {
+        "category": "Profile",
+        "name": "User Profile"
+      }
+    ]
+  }
+{% endschema %}
